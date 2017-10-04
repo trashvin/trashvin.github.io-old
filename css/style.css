@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    resize: both;
+    min-height: 100%;
+}
+div.main-screen {
+    height: 100vh;
+    background-image: url("../images/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.filler {
+    height: 250px;
+    width: 100%;
+    margin-left: auto;
+}
+div.bg-black {
+    background-color: black;
+}
+div.top-left {
+    padding: 5px;
+    text-align: right;
+}
+div.white {
+    color: white;
+}
+span.large {
+    font-size: 38pt;
+}
+span.medium {
+    font-size: 18pt;
+}
+#footer {
+    position:absolute;
+    left: 0;
+    bottom:0;
+    width:100%;
+    height:20px;   /* Height of the footer */
+    text-align: center;
+    font-size: 8pt;
+}
+p.links {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 14pt;
+    background: black;
+    padding-right: 10px;
+}
+a {
+    font-weight: bold;
+    color: whitesmoke;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
