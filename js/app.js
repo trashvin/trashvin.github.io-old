@@ -10,3 +10,11 @@ function fillData() {
     document.getElementById('project_intro').innerHTML = project_intro;
     document.getElementById('contact_intro').innerHTML = contact_intro;
 }
+function myFunction() {
+    var x = document.getElementById("topnav_id");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
