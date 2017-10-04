@@ -63,6 +63,10 @@ footer.main {
 p {
     padding:10px;
 }
+p.skills {
+    padding:5px;
+    font-size: 10pt;
+}
 p.links {
     color: whitesmoke;
     font-weight: bold;
@@ -116,6 +120,51 @@ img.small-icon {
     width: 25px;
     height: 25px;
 }
+img.nav-icon {
+    width: 30px;
+    height: 30px;
+}
 img.img-circle {
     border-radius: 50%;
+}
+span.badge {
+    background: whitesmoke;
+    color: black;
+}
+span.label {
+    padding: 5px;
+    padding-right: 10px;
+    background: black;
+    color: white;
+}
+nav {
+    background: transparent;
+}
+ul.mynav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+    width: 100%;
+    opacity:0.8;
+}
+
+li.mynav {
+    float: left;
+}
+
+li.mynav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.mynav a:hover:not(.active) {
+    background-color:#5A5757;
+}
+.active {
+    background-color: whitesmoke;
 }

@@ -30,16 +30,13 @@
     <body onload="fillData()">          
     <div class='container-fluid main-screen'>
         <div class='row'>
-            <div class='col-sm-8'><a name='top'></a></div>
-            <div class='col-sm-4 top-left'>
-                <p class='links'> 
-                    <a href='#about'>About Me</a> | 
-                    <a href='#skills'>Skills</a> | 
-                    <a href='#works'>Works</a> | 
-                    <a href='#contact'>Contact</a> |
-                    <a href='https:\trashvin.blogspot.com' target="_blank">Blog<img src='./images/openlink.png' width="15" height="15"></a>
-                </p>
-            </div>
+            <ul class='mynav'>
+                <li class='mynav' style='background:#6E6D6D'><a href='#'><img class='nav-icon' src='./images/logo.png'></a></li>
+                <li class='mynav' style="float:right"><a href="#works">Blog<img src='./images/openlink.png' width="15" height="15"></a></li>
+                <li class='mynav' style="float:right"><a href="#works">Works</a></li>
+                <li class='mynav' style="float:right"><a href="#skills">Skills</a></li>
+                <li class='mynav' style="float:right"><a href="#about">About Me</a></li>
+            </ul>
         </div>
         <div class='row filler'></div>
         <div class='row white'>
@@ -83,6 +80,28 @@
             <div class='col-sm-2'></div>
             <div class='col-sm-8'>
                 <p id='skill_intro' style='background:whitesmoke' class='drop-first-letter'></p>
+                <p class='skills'>
+                    <span class='label'>&bull;C# (15)</span>&nbsp;<span class='label'>&bull;VB.NET (8)</span>&nbsp;
+                    <span class='label'>&bull;Phyton (4)</span>&nbsp;<span class='label'>&bull;Java (2)</span>&nbsp;
+                    <span class='label'>&bull;JavaScript (2)</span>&nbsp;<span class='label'>&bull;TypeScript (1)</span>&nbsp;
+                    <span class='label'>&bull;C++ (1)</span>&nbsp;<span class='label'>&bull;F# (0)</span>&nbsp;
+                </p>
+                <p class='skills'>
+                    <span class='label'>&bull;.NET Framework(15)</span>&nbsp;<span class='label'>&bull;ADO.NET(10)</span>&nbsp;
+                    <span class='label'>&bull;WPF(3)</span>&nbsp;<span class='label'>&bull;EntityFramework(4)</span>&nbsp;
+                    <span class='label'>&bull;ASP.NET(4)</span>&nbsp;<span class='label'>&bull;Android SDK(2)</span>&nbsp;
+                    <span class='label'>&bull;.NET Core/Standard(1)</span>&nbsp;<span class='label'>&bull;Flask/BottlePy(1)</span>&nbsp;
+                    <span class='label'>&bull;Angular 2+(1)</span>&nbsp;<span class='label'>&bull;VueJS/React(0)</span>&nbsp;
+                </p>
+                <p class='skills'>
+                    <span class='label'>&bull;MS SQL Server(12)</span>&nbsp;<span class='label'>&bull;MySQL / MariaDB(3)</span>&nbsp;
+                    <span class='label'>&bull;MongoDB(2)</span>&nbsp;<span class='label'>&bull;MS Access(2)</span>&nbsp;
+                    <span class='label'>&bull;Oracle(0)</span>&nbsp;<span class='label'>&bull;SAP(0)</span>&nbsp;
+                    <span class='label'>&bull;PeopleSoft(1)</span>&nbsp;
+                </p>
+                <!--add more -->
+                <p style='background:whitesmoke'>Note : The numbers represent the number of years where I used the tool/language. 
+                    Zero (0) years indicates that either I have used it briefly ina project or I'm still learning.</p>
             </div>
             <div class='col-sm-2'></div>
         </div>
