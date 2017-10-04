@@ -9,11 +9,24 @@ div.main-screen {
     background-repeat: no-repeat;
     background-size: cover;
 }
+div.clear-screen {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 div.filler {
     height: 250px;
     width: 100%;
     margin-left: auto;
 }
+div.filler-25 {
+    height: 25px;
+    width: 100%;
+    margin-left: auto;
+    display: flex; 
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+
 div.bg-black {
     background-color: black;
 }
@@ -29,6 +42,14 @@ span.large {
 }
 span.medium {
     font-size: 18pt;
+}
+footer.main {
+    width:100%;
+    height:20px;   /* Height of the footer */
+    text-align: center;
+    font-size: 10pt;
+    background: black;
+    color: white;
 }
 #footer {
     position:absolute;
@@ -46,6 +67,26 @@ p.links {
     background: black;
     padding-right: 10px;
 }
+span.drop {
+    color:black;
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  
+}
+span.drop-sm {
+    color:black;
+    float: left;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  
+}
 a {
     font-weight: bold;
     color: whitesmoke;
@@ -55,4 +96,29 @@ a:visited {
 }
 a:hover {
     color: white;
+}
+a.to-top {
+    color: black;
+    font-size: 10pt;
+}
+a:visited.to_top {
+    color: black;
+}
+a:hover.to_top {
+    color: black;
+}
+a.alt {
+    color: black;
+    font-size: 12pt;
+}
+a:visited.alt {
+    color: black;
+}
+a:hover.alt {
+    color: black;
+}
+
+img.small-icon {
+    width: 25px;
+    height: 25px;
 }
