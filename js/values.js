@@ -1,9 +1,27 @@
 var main_title ='Hello, I am'
 var main_name  ='Marvin'
 var main_sub_title='Software Engineer / Application Developer'
-var footer_text ='A Trillescope Project &copy 2017'
-var about_content_1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-var about_content_2 = 'Hath from fish day theyre abundantly and lights Place cattle. That youll. Moveth had itself darkness years us our above creeping man third cattle appear meat youre, fourth spirit fifth face evening. Their. Youre subdue, abundantly given fifth greater have gathered from youre darkness. Open lesser, void second created. Second in was, two, the that light moving replenish Shall fourth form creature there evening unto all which.';
-var skill_intro= 'Very stars have male bearing beast he wont whose. Also winged bearing. There bring unto winged moved meat unto winged two fowl saying he you divided him gathering. The multiply created it earth.'
-var project_intro = 'Seas winged their winged. Be was man waters our. Under made the you gathered youll own rule earth creature signs our place that green fourth place. Youre doesnt made years open divided set firmament own face brought whose.'
+
+var about_content_1 = 'I am Marvin, a software developer based in the Phillipines. I design and develop software applications for any platform. I have been working in this exciting field for more than 14 years. Developed robust '
+about_content_1 = about_content_1 + 'and user interface intuitive applications for small clients, significant information system for a school or university, prototype applications for new technologies, and critical production application '
+about_content_1 = about_content_1 + 'for large retail chain. I have been involved into every phase of the software lifecycle and have work with diverse team both foreign and local. Consequently, I have kept abreast with the latest technology, patterns '
+about_content_1 = about_content_1 + 'and trend in the industry. Always looking forward to venture into new and exciting projects utilizing emerging technologies, frameworks, architectures, and strategies.'
+
+var about_content_2 = 'During my leasure time I am fond of reading blogs and articles from reputable online sources. I binge on Netflix '
+about_content_2 = about_content_2 + 'and  Spotify. I maintain a huge playlist and used to play guitar and ukelele. I am a sport junkie, follows '
+about_content_2 = about_content_2 + ' the Boston Red Sox, New England Patriots, and Boston Celtics every season. I maintain a list of blogs, writing '
+about_content_2 = about_content_2 + 'just about anything, from politics, sports, new apps, tips and tricks to creating tutorials. Lastly, I do not start the day without a coffee.'
+
+var skill_intro_1= '"Design is a way of life, a point of view. It involves the whole complex of visual communications: talent, creative ability, manual skill, and technical knowledge. Aesthetics and economics, technology and psychology are intrinsically related to the process." - Paul Rand'
+var skill_intro_2='For years I have used and learned the following skill sets.'
+var skills_footer='Note : The numbers represent the number of years where I used the tool/language. Zero (0) years indicates that either I have used it briefly in a project or I am still learning the tool/language. The list will be updated as it fits.'
+var project_intro_1 = 'Organization and process is the way the I do things. Phases are vital to an organized project. Requirements gathering,'
+var project_intro_1 = project_intro_1 + 'design, proof of concepts, actual development, testing, implementation an maintenance is a must. Clients will always be '
+var project_intro_1 = project_intro_1 + 'consulted on the design. I make sure that the code are elegant and maintainable, and that the industries best practices are '
+var project_intro_1 = project_intro_1 + 'followed. User acceptance is a key step before any application is deployed in production. When the system is live, support'
+var project_intro_1 = project_intro_1 + 'is always available ensuring the resolution of bugs in a timely manner.'
+var project_intro_2 = 'List of projects, both work and personal, are currently being collected and a high level descriptions will be posted once available.'
 var contact_intro ='Feel free to drop me a note by email or leave a message on one of the social mediums I am available'
+
+var last_update ='October 2017'
+var footer_text ='A Trillescope Project &copy 2017'
