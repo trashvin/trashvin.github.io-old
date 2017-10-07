@@ -36,7 +36,7 @@ function fillData() {
                 main.innerHTML = key;
                 inner.className='tooltiptext';
                 if ( sub_skills[key] == 0) {
-                    inner.innerHTML = "Ongoing study/training"
+                    inner.innerHTML = "Short project or on going study/training"
                     main.appendChild(inner);
                 } else if( sub_skills[key]> 0){
                     inner.innerHTML= sub_skills[key].toString() + " year/s";
