@@ -68,7 +68,7 @@ footer.main {
     height:30px;   /* Height of the footer */
     text-align: center;
     font-size: 8pt;
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
 }
 #footer {
@@ -86,9 +86,11 @@ p {
 span.footer {
     padding:0px;
 }
-p.skills {
+.skills {
     padding:5px;
     font-size: 10pt;
+    line-height: 30px;
+    overflow: scroll;
 }
 p.links {
     color: whitesmoke;
@@ -161,9 +163,15 @@ span.badge {
 }
 span.label {
     font-weight: bold;
-    padding-right: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
     background: #B6B5B5;
     color: black;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 10%;
+    position: relative;
+    margin: 0px 1px;
 }
 nav {
     background: transparent;
@@ -193,4 +201,38 @@ div.topnav {
 }
 .topnav .icon {
     display: none;
+}
+
+
+/* Tooltip text */
+span.label .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 0;
+    border: 0.5 dotted grey;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1; 
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px;
+}
+span.label .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+span.label:hover .tooltiptext {
+    visibility: visible;
 }

@@ -14,7 +14,7 @@ about_content_2 = about_content_2 + 'just about anything, from politics, sports,
 
 var skill_intro_1= '"Design is a way of life, a point of view. It involves the whole complex of visual communications: talent, creative ability, manual skill, and technical knowledge. Aesthetics and economics, technology and psychology are intrinsically related to the process." - Paul Rand'
 var skill_intro_2='For years I have used and learned the following skill sets.'
-var skills_footer='Note : The numbers represent the number of years where I used the tool/language. Zero (0) years indicates that either I have used it briefly in a project or I am still learning the tool/language. The list will be updated as it fits.'
+var skills_footer='Click on each skill for more information. The list will be updated as it fits.'
 var project_intro_1 = 'Organization and process is the way the I do things. Phases are vital to an organized project. Requirements gathering,'
 var project_intro_1 = project_intro_1 + 'design, proof of concepts, actual development, testing, implementation an maintenance is a must. Clients will always be '
 var project_intro_1 = project_intro_1 + 'consulted on the design. I make sure that the code are elegant and maintainable, and that the industries best practices are '
@@ -25,3 +25,96 @@ var contact_intro ='Feel free to drop me a note by email or leave a message on o
 
 var last_update ='October 2017'
 var footer_text ='A Trillescope Project &copy 2017'
+
+var skills = {
+    "languages":"Programming Languages",
+    "frameworks":"Frameworks",
+    "databases":"Databases",
+    "sources":"Source Controls",
+    "cis":"Continuous Integration Tools",
+    "devs":"Development Tools",
+    "os":"Operating Systems",
+    "others":"Others"
+};
+var languages = {
+    "C#":15,
+    "VB.NET":8,
+    "SQL":10,
+    "Phyton":3,
+    "Java":2,
+    "JavaScript":2,
+    "TypeScript":1,
+    "C++":1,
+    "Swift":0,
+    "ES6":0
+};
+var frameworks = {
+    ".NET Framework":15
+    ,"ADO.NET":10,
+    "Entity Framework":4,
+    "ASP.NET":3,
+    "WPF":2,
+    "Android":2,
+    ".NET Core/Standard":1,
+    "jQuery":1,
+    "Angular":1,
+    "BottlePy":1,
+    "PyGame":1,
+    "Flask":0,
+    "Xamarin":0,
+    "UWP":0,
+    "React":0,
+    "VueJS":0
+};
+var databases = {
+    "MS SQL": 13,
+    "MySQL / MariaDB" : 3,
+    "MongoDB":2,
+    "MS Access":2,
+    "Oracle":0
+};
+var sources = {
+    "MKS / PTC":5,
+    "Git":3,
+    "TFS / VSTS":2,
+    "SourceOffsite":1,
+    "SVN":1
+};
+var cis = {
+    "VSTS / TFS": 1,
+    "AppVeyor": 2,
+    "Travis": 1
+};
+var devs = {
+    "Visual Studio":15,
+    "Eclipse":2,
+    "Visual Studio Code":2,
+    "Android Studio":1,
+    "PyCharm": 2,
+    "XCode": 0
+};
+var os = {
+    "Microsoft Windows":15,
+    "Mac OS": 3,
+    "Android": 4,
+    "iOS":3,
+    "Linux":3,
+    "Microft Windows Server":2,
+};
+var others = {
+    "HTML":10,
+    "CSS":5,
+    "Photoshop":5,
+    "MS Expression Blend":-1
+}
+var skill_list = {
+    "languages":languages,
+    "frameworks":frameworks,
+    "databases":databases,
+    "sources":sources,
+    "cis":cis,
+    "devs":devs,
+    "others":others,
+    "os":os
+    
+};
