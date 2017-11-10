@@ -3,7 +3,7 @@ var main_name = "Marvin";
 var main_sub_title = "Software Engineer / Application Developer";
 
 var about_content_1 =
-  "I am Marvin, a software developer based in the Phillipines. I design and develop software applications for any platform. I have been working in this exciting field for more than 14 years. Developed robust ";
+  "I am Marvin, a software developer based in the Philippines. I design and develop software applications for any platform. I have been working in this exciting field for more than 14 years. Developed robust ";
 about_content_1 =
   about_content_1 +
   "and user interface intuitive applications for small clients, significant information system for a school or university, prototype applications for new technologies, and critical production application ";
